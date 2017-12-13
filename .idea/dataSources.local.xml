@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="PostgreSQL - test_db_old@localhost" uuid="5245e366-f5eb-4df5-8c4c-f8736953d5ac">
+      <secret-storage>master_key</secret-storage>
+      <user-name>postgres</user-name>
+      <schema-pattern>test_db.pg_catalog test_db.public</schema-pattern>
+      <default-schemas>test_db.pg_catalog test_db.public</default-schemas>
+    </data-source>
+    <data-source name="PostgreSQL - test_db@localhost" uuid="2b67208f-fe07-4cbf-a166-1b63476c5b6a">
+      <secret-storage>master_key</secret-storage>
+      <user-name>postgres</user-name>
+      <schema-pattern>test_db.pg_catalog test_db.public</schema-pattern>
+      <default-schemas>test_db.pg_catalog test_db.public</default-schemas>
+    </data-source>
+  </component>
+</project>
