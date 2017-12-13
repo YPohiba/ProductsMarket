@@ -23,8 +23,6 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="ProductsMarket" />
-        <module name="springMVC-RESTful" />
-        <module name="TestShop" />
       </profile>
     </annotationProcessing>
   </component>
