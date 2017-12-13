@@ -13,5 +13,11 @@
       <schema-pattern>test_db.pg_catalog test_db.public</schema-pattern>
       <default-schemas>test_db.pg_catalog test_db.public</default-schemas>
     </data-source>
+    <data-source name="PostgreSQL - test_db2@localhost" uuid="7899c884-7413-4708-b96b-ef4a47bba10a">
+      <secret-storage>master_key</secret-storage>
+      <user-name>postgres</user-name>
+      <schema-pattern>test_db2.pg_catalog test_db2.public</schema-pattern>
+      <default-schemas>test_db2.pg_catalog test_db2.public</default-schemas>
+    </data-source>
   </component>
 </project>

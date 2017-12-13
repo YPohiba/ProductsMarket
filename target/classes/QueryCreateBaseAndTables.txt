@@ -1,0 +1,48 @@
+CREATE DATABASE test_db
+ENCODING = 'UTF8'
+TABLESPACE = pg_default
+LC_COLLATE = 'Ukrainian_Ukraine.1251'
+LC_CTYPE = 'Ukrainian_Ukraine.1251'
+CONNECTION LIMIT = -1;
+
+CREATE TABLE categories
+(
+  id serial NOT NULL,
+  name text NOT NULL,
+  CONSTRAINT categories_pkey PRIMARY KEY (id),
+  CONSTRAINT unique_name UNIQUE (name)
+)
+WITH (
+OIDS=FALSE
+);
+
+CREATE TABLE manufacturers
+(
+  id serial NOT NULL,
+  name text NOT NULL,
+  CONSTRAINT manufacturers_pkey PRIMARY KEY (id)
+)
+WITH (
+OIDS=FALSE
+);
+
+CREATE TABLE products
+(
+  id serial NOT NULL,
+  name text NOT NULL,
+  price real DEFAULT 0.0,
+  description text,
+  instock boolean NOT NULL DEFAULT true,
+  id_manufacturer integer NOT NULL DEFAULT 0,
+  id_category integer NOT NULL DEFAULT 0,
+  CONSTRAINT products_pkey PRIMARY KEY (id),
+  CONSTRAINT products_id_category_fkey FOREIGN KEY (id_category)
+  REFERENCES categories (id) MATCH SIMPLE
+  ON UPDATE NO ACTION ON DELETE NO ACTION,
+  CONSTRAINT products_id_manufacturer_fkey FOREIGN KEY (id_manufacturer)
+  REFERENCES manufacturers (id) MATCH SIMPLE
+  ON UPDATE NO ACTION ON DELETE NO ACTION
+)
+WITH (
+OIDS=FALSE
+);
