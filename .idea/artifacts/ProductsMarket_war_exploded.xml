@@ -1,10 +1,10 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="TestShop:war exploded">
+  <artifact type="exploded-war" name="ProductsMarket:war exploded">
     <output-path>$PROJECT_DIR$/target/ProductsMarket</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="TestShop" />
+          <element id="module-output" name="ProductsMarket" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.springframework:spring-core:4.3.1.RELEASE" />
@@ -31,7 +31,7 @@
       <element id="directory" name="META-INF">
         <element id="file-copy" path="D:\Projects\ProductsMarket\target/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="TestShop/web/Web" />
+      <element id="javaee-facet-resources" facet="ProductsMarket/web/Web" />
     </root>
   </artifact>
 </component>

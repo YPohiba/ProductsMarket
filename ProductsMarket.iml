@@ -18,9 +18,10 @@
     <facet type="Spring" name="Spring">
       <configuration>
         <fileset id="fileset" name="Spring Application Context" removed="false">
-          <file>file://$MODULE_DIR$/src/main/java/springmvcrestful/config/WebMvcConfig.java</file>
           <file>file://$MODULE_DIR$/src/main/java/springmvcrestful/config/ApplicationContextConfig.java</file>
-          <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/spring/marketServlet/servlet-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/java/springmvcrestful/config/JDBCConfig.java</file>
+          <file>file://$MODULE_DIR$/src/main/java/springmvcrestful/config/WebMvcConfig.java</file>
+          <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/spring/shopServlet/servlet-context.xml</file>
         </fileset>
       </configuration>
     </facet>
