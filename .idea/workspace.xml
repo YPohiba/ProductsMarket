@@ -1,34 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e3a4d20-a223-4fc1-ae2a-f72f556d120f" name="Default" comment="Add tag &quot;ProductsMarket&quot; for URL">
-      <change type="DELETED" beforePath="D:\MyHomeProjects\ProductsMarket\target\MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="D:\MyHomeProjects\ProductsMarket\target\ProductsMarket\META-INF\MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="D:\MyHomeProjects\ProductsMarket\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile\inputFiles.lst" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductsMarket/WEB-INF/classes/springmvcrestful/controller/restController/CategoryRESTController.class" afterPath="$PROJECT_DIR$/target/ProductsMarket/WEB-INF/classes/springmvcrestful/controller/restController/CategoryRESTController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/springmvcrestful/controller/restController/CategoryRESTController.class" afterPath="$PROJECT_DIR$/target/classes/springmvcrestful/controller/restController/CategoryRESTController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductsMarket/WEB-INF/classes/springmvcrestful/controller/MainController.class" afterPath="$PROJECT_DIR$/target/ProductsMarket/WEB-INF/classes/springmvcrestful/controller/MainController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/springmvcrestful/controller/MainController.class" afterPath="$PROJECT_DIR$/target/classes/springmvcrestful/controller/MainController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductsMarket/WEB-INF/classes/springmvcrestful/controller/restController/ManufacturerRESTController.class" afterPath="$PROJECT_DIR$/target/ProductsMarket/WEB-INF/classes/springmvcrestful/controller/restController/ManufacturerRESTController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/springmvcrestful/controller/restController/ManufacturerRESTController.class" afterPath="$PROJECT_DIR$/target/classes/springmvcrestful/controller/restController/ManufacturerRESTController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductsMarket/WEB-INF/classes/springmvcrestful/controller/restController/ProductRESTController.class" afterPath="$PROJECT_DIR$/target/ProductsMarket/WEB-INF/classes/springmvcrestful/controller/restController/ProductRESTController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/springmvcrestful/controller/restController/ProductRESTController.class" afterPath="$PROJECT_DIR$/target/classes/springmvcrestful/controller/restController/ProductRESTController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductsMarket.war" afterPath="$PROJECT_DIR$/target/ProductsMarket.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+    <list default="true" id="9e3a4d20-a223-4fc1-ae2a-f72f556d120f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductsMarket/WEB-INF/classes/springmvcrestful/config/ApplicationContextConfig.class" afterPath="$PROJECT_DIR$/target/ProductsMarket/WEB-INF/classes/springmvcrestful/config/ApplicationContextConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/springmvcrestful/config/ApplicationContextConfig.class" afterPath="$PROJECT_DIR$/target/classes/springmvcrestful/config/ApplicationContextConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductsMarket/WEB-INF/classes/springmvcrestful/model/Category.class" afterPath="$PROJECT_DIR$/target/ProductsMarket/WEB-INF/classes/springmvcrestful/model/Category.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/springmvcrestful/model/Category.class" afterPath="$PROJECT_DIR$/target/classes/springmvcrestful/model/Category.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductsMarket/WEB-INF/classes/springmvcrestful/controller/CategoryController.class" afterPath="$PROJECT_DIR$/target/ProductsMarket/WEB-INF/classes/springmvcrestful/controller/CategoryController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/springmvcrestful/controller/CategoryController.class" afterPath="$PROJECT_DIR$/target/classes/springmvcrestful/controller/CategoryController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductsMarket/WEB-INF/classes/springmvcrestful/dao/CategoryDAO.class" afterPath="$PROJECT_DIR$/target/ProductsMarket/WEB-INF/classes/springmvcrestful/dao/CategoryDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/springmvcrestful/dao/CategoryDAO.class" afterPath="$PROJECT_DIR$/target/classes/springmvcrestful/dao/CategoryDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductsMarket/WEB-INF/classes/springmvcrestful/dao/jdbc/CategoryDAOImpl.class" afterPath="$PROJECT_DIR$/target/ProductsMarket/WEB-INF/classes/springmvcrestful/dao/jdbc/CategoryDAOImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/springmvcrestful/dao/jdbc/CategoryDAOImpl.class" afterPath="$PROJECT_DIR$/target/classes/springmvcrestful/dao/jdbc/CategoryDAOImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductsMarket/WEB-INF/classes/springmvcrestful/mapper/CategoryMapper.class" afterPath="$PROJECT_DIR$/target/ProductsMarket/WEB-INF/classes/springmvcrestful/mapper/CategoryMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/springmvcrestful/mapper/CategoryMapper.class" afterPath="$PROJECT_DIR$/target/classes/springmvcrestful/mapper/CategoryMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductsMarket/WEB-INF/classes/springmvcrestful/config/JDBCConfig.class" afterPath="$PROJECT_DIR$/target/ProductsMarket/WEB-INF/classes/springmvcrestful/config/JDBCConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/springmvcrestful/config/JDBCConfig.class" afterPath="$PROJECT_DIR$/target/classes/springmvcrestful/config/JDBCConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductsMarket/WEB-INF/classes/springmvcrestful/model/Manufacturer.class" afterPath="$PROJECT_DIR$/target/ProductsMarket/WEB-INF/classes/springmvcrestful/model/Manufacturer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/springmvcrestful/model/Manufacturer.class" afterPath="$PROJECT_DIR$/target/classes/springmvcrestful/model/Manufacturer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductsMarket/WEB-INF/classes/springmvcrestful/controller/ManufacturerController.class" afterPath="$PROJECT_DIR$/target/ProductsMarket/WEB-INF/classes/springmvcrestful/controller/ManufacturerController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/springmvcrestful/controller/ManufacturerController.class" afterPath="$PROJECT_DIR$/target/classes/springmvcrestful/controller/ManufacturerController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductsMarket/WEB-INF/classes/springmvcrestful/dao/ManufacturerDAO.class" afterPath="$PROJECT_DIR$/target/ProductsMarket/WEB-INF/classes/springmvcrestful/dao/ManufacturerDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/springmvcrestful/dao/ManufacturerDAO.class" afterPath="$PROJECT_DIR$/target/classes/springmvcrestful/dao/ManufacturerDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductsMarket/WEB-INF/classes/springmvcrestful/dao/jdbc/ManufacturerDAOImpl.class" afterPath="$PROJECT_DIR$/target/ProductsMarket/WEB-INF/classes/springmvcrestful/dao/jdbc/ManufacturerDAOImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/springmvcrestful/dao/jdbc/ManufacturerDAOImpl.class" afterPath="$PROJECT_DIR$/target/classes/springmvcrestful/dao/jdbc/ManufacturerDAOImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductsMarket/WEB-INF/classes/springmvcrestful/mapper/ManufacturerMapper.class" afterPath="$PROJECT_DIR$/target/ProductsMarket/WEB-INF/classes/springmvcrestful/mapper/ManufacturerMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/springmvcrestful/mapper/ManufacturerMapper.class" afterPath="$PROJECT_DIR$/target/classes/springmvcrestful/mapper/ManufacturerMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductsMarket/WEB-INF/classes/springmvcrestful/model/Product.class" afterPath="$PROJECT_DIR$/target/ProductsMarket/WEB-INF/classes/springmvcrestful/model/Product.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/springmvcrestful/model/Product.class" afterPath="$PROJECT_DIR$/target/classes/springmvcrestful/model/Product.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductsMarket/WEB-INF/classes/springmvcrestful/controller/ProductController.class" afterPath="$PROJECT_DIR$/target/ProductsMarket/WEB-INF/classes/springmvcrestful/controller/ProductController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/springmvcrestful/controller/ProductController.class" afterPath="$PROJECT_DIR$/target/classes/springmvcrestful/controller/ProductController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductsMarket/WEB-INF/classes/springmvcrestful/dao/ProductDAO.class" afterPath="$PROJECT_DIR$/target/ProductsMarket/WEB-INF/classes/springmvcrestful/dao/ProductDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/springmvcrestful/dao/ProductDAO.class" afterPath="$PROJECT_DIR$/target/classes/springmvcrestful/dao/ProductDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductsMarket/WEB-INF/classes/springmvcrestful/dao/jdbc/ProductDAOImpl.class" afterPath="$PROJECT_DIR$/target/ProductsMarket/WEB-INF/classes/springmvcrestful/dao/jdbc/ProductDAOImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/springmvcrestful/dao/jdbc/ProductDAOImpl.class" afterPath="$PROJECT_DIR$/target/classes/springmvcrestful/dao/jdbc/ProductDAOImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductsMarket/WEB-INF/classes/springmvcrestful/mapper/ProductMapper.class" afterPath="$PROJECT_DIR$/target/ProductsMarket/WEB-INF/classes/springmvcrestful/mapper/ProductMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/springmvcrestful/mapper/ProductMapper.class" afterPath="$PROJECT_DIR$/target/classes/springmvcrestful/mapper/ProductMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductsMarket/WEB-INF/classes/springmvcrestful/config/SpringWebAppInitializer.class" afterPath="$PROJECT_DIR$/target/ProductsMarket/WEB-INF/classes/springmvcrestful/config/SpringWebAppInitializer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/springmvcrestful/config/SpringWebAppInitializer.class" afterPath="$PROJECT_DIR$/target/classes/springmvcrestful/config/SpringWebAppInitializer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductsMarket/WEB-INF/classes/springmvcrestful/config/WebMvcConfig.class" afterPath="$PROJECT_DIR$/target/ProductsMarket/WEB-INF/classes/springmvcrestful/config/WebMvcConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/springmvcrestful/config/WebMvcConfig.class" afterPath="$PROJECT_DIR$/target/classes/springmvcrestful/config/WebMvcConfig.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/springmvcrestful/controller/restController/CategoryRESTController.java" afterPath="$PROJECT_DIR$/src/main/java/springmvcrestful/controller/restController/CategoryRESTController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/springmvcrestful/controller/MainController.java" afterPath="$PROJECT_DIR$/src/main/java/springmvcrestful/controller/MainController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/springmvcrestful/controller/restController/ManufacturerRESTController.java" afterPath="$PROJECT_DIR$/src/main/java/springmvcrestful/controller/restController/ManufacturerRESTController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/springmvcrestful/controller/restController/ProductRESTController.java" afterPath="$PROJECT_DIR$/src/main/java/springmvcrestful/controller/restController/ProductRESTController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProductsMarket.iml" afterPath="$PROJECT_DIR$/ProductsMarket.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/ProductsMarket_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/ProductsMarket_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductsMarket/WEB-INF/pages/index.jsp" afterPath="$PROJECT_DIR$/target/ProductsMarket/WEB-INF/pages/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="springMVC-RESTful.iws" />
@@ -72,21 +88,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ProductRESTController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/springmvcrestful/controller/restController/ProductRESTController.java">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ManufacturerRESTController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/springmvcrestful/controller/restController/ManufacturerRESTController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.33291772" vertical-offset="260" max-vertical-offset="5168">
+              <caret line="31" column="20" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -95,18 +101,8 @@
       <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/springmvcrestful/controller/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1802">
-              <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21419977" vertical-offset="451" max-vertical-offset="5168">
-              <caret line="37" column="56" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="56" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1802">
+              <caret line="95" column="29" selection-start-line="95" selection-start-column="29" selection-end-line="95" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -168,11 +164,11 @@
         <option value="$PROJECT_DIR$/.idea/compiler.xml" />
         <option value="db-console:/79775051/2b67208f-fe07-4cbf-a166-1b63476c5b6a/" />
         <option value="$PROJECT_DIR$/../Utils/Apache-tomcat-9.0.2/conf/tomcat-users.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/springmvcrestful/controller/restController/CategoryRESTController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/springmvcrestful/controller/restController/ManufacturerRESTController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/springmvcrestful/controller/restController/ProductRESTController.java" />
         <option value="$PROJECT_DIR$/src/main/java/springmvcrestful/config/SpringWebAppInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/springmvcrestful/controller/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/springmvcrestful/controller/restController/ProductRESTController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/springmvcrestful/controller/restController/ManufacturerRESTController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/springmvcrestful/controller/restController/CategoryRESTController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" />
       </list>
     </option>
@@ -283,8 +279,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -326,40 +322,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductsMarket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductsMarket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopServlet" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -498,36 +460,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="restController" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductsMarket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductsMarket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springmvcrestful" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1055,7 +987,8 @@
       <workItem from="1513188213051" duration="1759000" />
       <workItem from="1513273318252" duration="12000" />
       <workItem from="1513277227571" duration="1074000" />
-      <workItem from="1513286045983" duration="4475000" />
+      <workItem from="1513286045983" duration="4708000" />
+      <workItem from="1513291304619" duration="830000" />
     </task>
     <task id="LOCAL-00001" summary="compiler.xml">
       <created>1513190139205</created>
@@ -1063,11 +996,37 @@
       <option name="project" value="LOCAL" />
       <updated>1513190139205</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add tag &quot;ProductsMarket&quot; for URL">
+      <created>1513290650778</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1513290650778</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174969000" />
+    <option name="totallyTimeSpent" value="176032000" />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1118,24 +1077,25 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2857143" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2857143" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30178174" sideWeight="0.80117273" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" x="1390" y="107" width="1736" height="856" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32962137" sideWeight="0.78198296" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.78198296" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24520256" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25053304" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24520256" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1538,7 +1498,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9173364" vertical-offset="0" max-vertical-offset="952">
           <caret line="47" column="89" selection-start-line="47" selection-start-column="89" selection-end-line="47" selection-end-column="89" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1574,22 +1533,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/springmvcrestful/controller/restController/CategoryRESTController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
-          <caret line="57" column="44" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="44" />
-          <folding>
-            <element signature="e#1229#1230#0" expanded="true" />
-            <element signature="e#1283#1284#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/springmvcrestful/controller/CategoryController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1597,10 +1544,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
           <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="e#766#767#0" expanded="true" />
-            <element signature="e#807#808#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1608,10 +1551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.31264368" vertical-offset="0" max-vertical-offset="870">
           <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#663#664#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1619,7 +1558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="138" max-vertical-offset="765">
           <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1627,38 +1565,59 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.3873563" vertical-offset="983" max-vertical-offset="1853">
           <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/Spring_4_3_13_RELEASE.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="574">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/springmvcrestful/controller/restController/ProductRESTController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.70689654" vertical-offset="269" max-vertical-offset="1139">
+          <caret line="58" column="29" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
+          <folding>
+            <element signature="e#826#827#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#1225#1226#0" expanded="true" />
+            <element signature="e#1277#1278#0" expanded="true" />
+            <element signature="e#2744#2745#0" expanded="true" />
+            <element signature="e#2788#2789#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/springmvcrestful/controller/restController/ManufacturerRESTController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.745977" vertical-offset="167" max-vertical-offset="1037">
+          <caret line="58" column="29" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springmvcrestful/controller/restController/CategoryRESTController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.745977" vertical-offset="150" max-vertical-offset="1020">
+          <caret line="57" column="29" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/springmvcrestful/controller/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1802">
-          <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1802">
+          <caret line="95" column="29" selection-start-line="95" selection-start-column="29" selection-end-line="95" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21419977" vertical-offset="451" max-vertical-offset="5168">
-          <caret line="37" column="56" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="56" />
+        <state vertical-scroll-proportion="0.33291772" vertical-offset="260" max-vertical-offset="5168">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="20" />
           <folding />
         </state>
       </provider>

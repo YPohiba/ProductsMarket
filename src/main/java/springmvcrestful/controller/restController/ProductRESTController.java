@@ -18,7 +18,7 @@ public class ProductRESTController {
     private ProductDAO productDAO;
 
     // http://localhost:8080/getProducts
-    @RequestMapping(value = "/ProductsMarket/getProducts",
+    @RequestMapping(value = "/getProducts",
             method =  RequestMethod.GET,
             produces = { MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE },
             headers={"content-type=application/xml", "content-type=application/json"})
@@ -27,7 +27,7 @@ public class ProductRESTController {
         return productDAO.getListProducts();
     }
 
-    @RequestMapping(value = "/ProductsMarket/getProduct/{id}",
+    @RequestMapping(value = "/getProduct/{id}",
             method =  RequestMethod.GET,
             produces = { MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE },
             headers={"content-type=application/xml", "content-type=application/json"})
@@ -36,7 +36,7 @@ public class ProductRESTController {
         return productDAO.getProductById(id);
     }
 
-    @RequestMapping(value = "/ProductsMarket/addProduct",
+    @RequestMapping(value = "/addProduct",
             method = RequestMethod.POST,
             produces = { MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE},
             headers={"content-type=application/xml", "content-type=application/json"})
@@ -46,7 +46,7 @@ public class ProductRESTController {
         return product;
     }
 
-    @RequestMapping(value = "/ProductsMarket/updateProduct",
+    @RequestMapping(value = "/updateProduct",
             method = RequestMethod.PUT,
             produces = { MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE},
             headers={"content-type=application/xml", "content-type=application/json"})
@@ -56,7 +56,7 @@ public class ProductRESTController {
         return product;
     }
 
-    @RequestMapping(value = "/ProductsMarket/deleteProduct/{id}",
+    @RequestMapping(value = "/deleteProduct/{id}",
             method = RequestMethod.DELETE,
             produces = { MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE},
             headers={"content-type=application/xml", "content-type=application/json"})

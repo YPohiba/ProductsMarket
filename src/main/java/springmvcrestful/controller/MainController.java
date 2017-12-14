@@ -41,7 +41,7 @@ public class MainController {
         return "index";
     }
 
-    @RequestMapping(value = "/ProductsMarket/getFilteredProducts", method = RequestMethod.GET)
+    @RequestMapping(value = "/getFilteredProducts", method = RequestMethod.GET)
     public String getFilteredProducts (ModelMap modelMap,
                         @ModelAttribute("product") Product product,
                         @ModelAttribute("minPrice") float minPrice,
@@ -57,28 +57,28 @@ public class MainController {
         return "index";
     }
 
-    @RequestMapping(value = "/ProductsMarket/newProduct", method = RequestMethod.POST)
+    @RequestMapping(value = "/newProduct", method = RequestMethod.POST)
     public String addNewProduct(@ModelAttribute("product") Product product, ModelMap modelMap){
         productDAO.addProduct(product.getName(), product.getDescription(), product.getPrice(), product.isInstock(), product.getIdManufacturer(), product.getIdCategory());
         uploadDefaultAttributes(modelMap);
         return "index";
     }
 
-    @RequestMapping(value = "/ProductsMarket/newCategory", method = RequestMethod.POST)
+    @RequestMapping(value = "/newCategory", method = RequestMethod.POST)
     public String addNewCategory(@ModelAttribute("category") Category category, ModelMap modelMap){
         categoryDAO.addCategory(category.getName());
         uploadDefaultAttributes(modelMap);
         return "index";
     }
 
-    @RequestMapping(value = "/ProductsMarket/newManufacturer", method = RequestMethod.POST)
+    @RequestMapping(value = "/newManufacturer", method = RequestMethod.POST)
     public String addNewManufacturer(@ModelAttribute("Manufacturer") Manufacturer manufacturer, ModelMap modelMap){
         manufacturerDAO.addManufacturer(manufacturer.getName());
         uploadDefaultAttributes(modelMap);
         return "index";
     }
 
-    @RequestMapping(value = "/ProductsMarket/editProduct/{id}", method = RequestMethod.POST)
+    @RequestMapping(value = "/editProduct/{id}", method = RequestMethod.POST)
     public String updateProduct(@ModelAttribute("product") Product product, @PathVariable("id") int id, ModelMap modelMap){
         product.setId(id);
         productDAO.updateProduct(product.getId(), product.getName(), product.getDescription(), product.getPrice(), product.isInstock(), product.getIdManufacturer(), product.getIdCategory());
@@ -86,14 +86,14 @@ public class MainController {
         return "index";
     }
 
-    @RequestMapping(value = "/ProductsMarket/removeProduct/{id}", method = RequestMethod.POST)
+    @RequestMapping(value = "/removeProduct/{id}", method = RequestMethod.POST)
     public String deleteProduct(@PathVariable("id") int id, ModelMap modelMap){
         productDAO.deleteProduct(id);
         uploadDefaultAttributes(modelMap);
         return "index";
     }
 
-    @RequestMapping(value = "/ProductsMarket/changeProduct/{id}", method = RequestMethod.POST)
+    @RequestMapping(value = "/changeProduct/{id}", method = RequestMethod.POST)
     public String changeProduct(@ModelAttribute("product") Product product,
                                 @ModelAttribute("idButton")Object button,
                                 @PathVariable("id") int id, ModelMap modelMap){

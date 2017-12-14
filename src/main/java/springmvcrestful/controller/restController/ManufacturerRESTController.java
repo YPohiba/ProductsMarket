@@ -18,7 +18,7 @@ public class ManufacturerRESTController {
     private ManufacturerDAO manufacturerDAO;
 
     // http://localhost:8080/getManufs
-    @RequestMapping(value = "/ProductsMarket/getManufs",
+    @RequestMapping(value = "/getManufs",
             method =  RequestMethod.GET,
             produces = { MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE },
             headers={"content-type=application/xml", "content-type=application/json"})
@@ -27,7 +27,7 @@ public class ManufacturerRESTController {
         return manufacturerDAO.getListManufacturers();
     }
 
-    @RequestMapping(value = "/ProductsMarket/getManuf/{id}",
+    @RequestMapping(value = "/getManuf/{id}",
             method =  RequestMethod.GET,
             produces = { MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE },
             headers={"content-type=application/xml", "content-type=application/json"})
@@ -36,7 +36,7 @@ public class ManufacturerRESTController {
         return manufacturerDAO.getManufacturerById(id);
     }
 
-    @RequestMapping(value = "/ProductsMarket/addManuf",
+    @RequestMapping(value = "/addManuf",
             method = RequestMethod.POST,
             produces = { MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE},
             headers={"content-type=application/xml", "content-type=application/json"})
@@ -46,7 +46,7 @@ public class ManufacturerRESTController {
         return manufacturer;
     }
 
-    @RequestMapping(value = "/ProductsMarket/updateManuf",
+    @RequestMapping(value = "/updateManuf",
             method = RequestMethod.PUT,
             produces = { MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE},
             headers={"content-type=application/xml", "content-type=application/json"})
@@ -56,7 +56,7 @@ public class ManufacturerRESTController {
         return manufacturer;
     }
 
-    @RequestMapping(value = "/ProductsMarket/deleteManuf/{id}",
+    @RequestMapping(value = "/deleteManuf/{id}",
             method = RequestMethod.DELETE,
             produces = { MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE},
             headers={"content-type=application/xml", "content-type=application/json"})
