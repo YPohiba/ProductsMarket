@@ -29,13 +29,13 @@
     </div>
     <div class="row">
       <div class="col-md-3">
-        <form action="/" method="get">
+        <form action="${pageContext.request.contextPath}/" method="get">
           <div class="clearfix">
             <button type="submit" class="btn btn-secondary float-right">Clean all</button>
             <h3>Filters</h3>
           </div>
         </form>
-        <form action="/getFilteredProducts" modelAttribute="product" modelattribute="minPrice" modelattribute="maxPrice" method="get">
+        <form action="${pageContext.request.contextPath}/ProductsMarket/getFilteredProducts" modelAttribute="product" modelattribute="minPrice" modelattribute="maxPrice" method="get">
           <div class="form-group">
             <label>Select Category:</label>
             <select class="form-control form-control-lg" id="idCategory" name="idCategory" title="Select a product category" onchange="">
@@ -98,7 +98,7 @@
               </div>
             </div>
             <div class="collapse" id="collapseForNew">
-              <form:form class="card card-body" action="${pageContext.request.contextPath}/newProduct" modelAttribute="product" method="post">
+              <form:form class="card card-body" action="${pageContext.request.contextPath}/ProductsMarket/newProduct" modelAttribute="product" method="post">
                 <div class="row">
                   <div class="form-group col-md-3">
                     <label>Name</label>
@@ -153,7 +153,7 @@
               </div>
             </div>
             <div class="collapse" id="collapseForNewCategory">
-              <form:form class="card card-body" action="${pageContext.request.contextPath}/newCategory" modelAttribute="category" method="post">
+              <form:form class="card card-body" action="${pageContext.request.contextPath}/ProductsMarket/newCategory" modelAttribute="category" method="post">
                 <div class="row">
                   <div class="form-group col-md-3">
                     <label>Name</label>
@@ -176,7 +176,7 @@
               </div>
             </div>
             <div class="collapse" id="collapseForNewManufacturer">
-              <form:form class="card card-body" action="${pageContext.request.contextPath}/newManufacturer" modelAttribute="Manufacturer" method="post">
+              <form:form class="card card-body" action="${pageContext.request.contextPath}/ProductsMarket/newManufacturer" modelAttribute="Manufacturer" method="post">
                 <div class="row">
                   <div class="form-group col-md-3">
                     <label>Name</label>
@@ -207,7 +207,7 @@
                 </div>
               </div>
               <div class="collapse" id="collapseFor${product.id}">
-                <form class="card card-body" action="${pageContext.request.contextPath}/changeProduct/${product.id}" modelAttribute="idButton" modelAttribute="product" method="post">
+                <form class="card card-body" action="${pageContext.request.contextPath}/ProductsMarket/changeProduct/${product.id}" modelAttribute="idButton" modelAttribute="product" method="post">
                   <div class="row">
                     <div class="form-group col-md-3">
                       <label>Name</label>
